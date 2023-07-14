@@ -1,11 +1,11 @@
 import "../styles/task.sass";
 
-const Task = () => {
+const Task = ({inputEntered}) => {
   return (
     <>
       <div className="taskContainer">
         <div className="buttonsContainer">
-          <h3>Task #1</h3>
+          <h4>{inputEntered}</h4>
           <div className="buttons">
             <button>Edit</button>
             <button>Delete</button>
