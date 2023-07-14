@@ -1,9 +1,9 @@
 import "../styles/button.sass"
 
-const Button = () => {
+const Button = ({createTask}) => {
   return (
     <>
-      <button>Enter Task</button>
+      <button onClick={createTask}>Enter Task</button>
     </>
   );
 };

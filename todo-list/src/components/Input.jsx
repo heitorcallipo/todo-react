@@ -13,7 +13,6 @@ const Input = ({ inputEntered, setInputEntered }) => {
             setInputEntered(e.target.value);
           }}
         />
-        {inputEntered}
       </div>
     </>
   );
